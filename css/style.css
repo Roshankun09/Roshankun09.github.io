@@ -1,0 +1,315 @@
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+/*body {
+    background: url("../img/nature-3294543_1920.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main {
+      margin-top: 50px;
+  }
+
+
+.header {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    min-height: 56px;
+    transition: min-height 0.3s;
+    width: 100%;
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,134,191,1) 100%, rgba(0,212,255,1) 100%);*/
+  }
+  
+  .header__inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .header__logo {
+    height: 50px;
+    margin-right: 1em;
+    vertical-align: top;
+    margin-top: 12px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    width: 100px;
+  }
+  
+  .header__title {
+    font-weight: 400;
+    font-size: 3em;
+    font-family: cursive;
+    margin: 0.5em 0.25em;
+    display: inline-block;
+    color: #212121;
+    text-transform: uppercase;
+    color: forestgreen
+ }
+
+
+
+
+
+/*.navbar {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,134,191,1) 100%, rgba(0,212,255,1) 100%);
+}*/
+.nav-link , .navbar-brand { 
+    cursor: pointer;
+    margin-right: 1em;
+}
+.nav-link:hover { 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(134,134,191,1) 0%, rgba(0,212,255,1) 100%);
+}
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+
+
+/*Animation*/
+/*@keyframes example {
+    0% {
+        transform: rotate(0deg);
+        right: 0px;
+    }
+    25% {
+        transform: rotate(20deg);
+        right: 500px;
+    }
+    50% {
+        transform: rotate(0deg);
+        right: 1200px;
+    }
+    55% {
+        transform: rotate(0deg);
+        right: 1200px;
+    }
+    70% {
+        transform: rotate(0deg);
+        right: 1200px;
+        background: #000000;
+    }
+    100% {
+        transform: rotate(-360deg);
+        left: 0px;
+    }
+}*/
+
+/*main {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(249,249,249,1) 100%);
+}
+*/
+h2 {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p {
+    font-family: cursive;
+}
+/*footer {
+    background: rgb(6,25,28);
+    background: linear-gradient(90deg, rgba(6,25,28,1) 23%, rgba(169,169,231,1) 50%, rgba(20,145,157,1) 65%, rgba(6,25,28,1) 66%);
+}
+*/
+
+#Example1 {
+    margin-top: 100px;
+}
+#best-features {
+    margin-top: 50px;
+}
+/*#best-features .show {
+    visibility: visible;
+}*/
+/*#best-features .hide {
+    visibility: hidden;
+}*/
+
+#myBtn{
+    background: #24355C;
+}
+/*@media screen and (max-width: 498px){
+    #myBtn{
+        width: 30%;
+        height: 5%;
+    }
+}*/
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 70%;
+  z-index: 1;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+
+.slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    visibility: visible;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.slideRight {
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    visibility: visible;
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
+.slideDown {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    visibility: visible;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+#logo {
+    width: 84px;
+    height: 44px;
+}
+.hide {
+    display: none;
+}
