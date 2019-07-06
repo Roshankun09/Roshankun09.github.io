@@ -327,22 +327,22 @@ footer {
 }
 
 @-webkit-keyframes color-change {
-    0% { color: rgb(255, 255, 255); }
+    0% { color: rgb(230, 218, 115); }
     50% { color: rgb(0, 255, 255); }
     100% { color: rgb(30, 255, 0); }
 }
 @-moz-keyframes color-change {
-    0% { color: rgb(255, 255, 255); }
+    0% { color: rgb(230, 218, 115); }
     50% { color: rgb(0, 255, 255); }
     100% { color: rgb(30, 255, 0); }
 }
 @-ms-keyframes color-change {
-    0% { color: rgb(255, 255, 255); }
+    0% { color: rgb(230, 218, 115); }
     50% { color: rgb(0, 255, 255); }
     100% { color: rgb(30, 255, 0); }
 }
 @-o-keyframes color-change {
-    0% { color: rgb(252, 249, 249); }
+    0% { color: rgb(230, 218, 115); }
     50% { color: rgb(0, 255, 255); }
     100% { color: rgb(30, 255, 0); }
 }
